@@ -74,9 +74,7 @@ function bottomLeftValue(){
 ////////// Function for copying to clipboard //////////////
 let copy = document.getElementById("copy");
 
-
 copy.addEventListener("click", myFunction);
-
 
 function myFunction() {
     let copyText1 = document.querySelector(".clipboard1");
@@ -105,20 +103,10 @@ function myFunction() {
     document.execCommand("copy");
     input.value =  input.value + " " + copyText4.value;
 
-    
-    // input.focus();
     input.select();
     document.execCommand("Copy");
     
-    // document.body.appendChild(input).hidden;
-
-    // alert("Copied the text: " + input.value);
-
-    // console.log(input);
-
-    // document.body.appendChild(input);
-    // input.focus();
-
+    
   }
 
   

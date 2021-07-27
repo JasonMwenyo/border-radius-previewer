@@ -1,6 +1,11 @@
-.heading {
-    margin-left: 480px;
+#center {
+    text-align: center;
 }
+
+/* .heading {
+    margin-left: 480px;
+    width: 100px;
+} */
 
 #box {
     border: 2px solid rgb(231, 139, 18);
