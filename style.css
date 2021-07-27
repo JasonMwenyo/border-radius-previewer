@@ -2,10 +2,11 @@
     text-align: center;
 }
 
-/* .heading {
-    margin-left: 480px;
-    width: 100px;
-} */
+.heading {
+    font-weight: bold;
+    text-decoration: underline; 
+    text-transform: uppercase;
+}
 
 #box {
     border: 2px solid rgb(231, 139, 18);
@@ -17,14 +18,9 @@
     margin: auto;
 }
 
-/* #input {
-    display: none;
-} */
-
-
-
-
-
+label {
+    text-decoration: underline;
+}
 
 /* User can change the 4 border-radius values that are applied 
 to the box (top-left, top-right, bottom-left, bottom-right) */
